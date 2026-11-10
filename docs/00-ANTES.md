@@ -50,3 +50,13 @@ de "pregunta por todo" a "actúa sin preguntar":
 generación masiva el cansancio de aprobar puede hacer que apruebe sin leer; así,
 el agente podría ejecutar un `npm install` de un paquete que no quería o
 sobrescribir un archivo mío sin que me dé cuenta.
+
+## 4. FACTURA (Fase 1.2)
+
+| Dato | Valor |
+|---|---|
+| Costo de la conversación | sin medir (el agente no tiene acceso al contador de costo; hay que leerlo en la app antes de cerrar) |
+| Duración | sin medir (no se anotó la hora de inicio) |
+| Veces que el agente pidió aprobación | 0 preguntas de diseño; 1 acción bloqueada por el clasificador de permisos (matar todos los `node.exe`), rehecha de forma acotada |
+| Preguntas al usuario durante la generación | 0 |
+| Verificación realizada | `next build` sin errores; servidor de producción: catálogo con 12 productos, `/product/3`, `/admin`, `/login` responden 200. Flujo registro → carrito → compra NO probado |
